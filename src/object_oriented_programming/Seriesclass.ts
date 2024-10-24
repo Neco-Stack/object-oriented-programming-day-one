@@ -33,9 +33,9 @@ function printSeriesInfo(series: Series):void {
     console.log(`Start Year: ${series._startYear}`);
     console.log(`End Year: ${series._endYear}`);
     console.log(`Number of Episodes: ${series._episodes.length}`);
-
 }
 printSeriesInfo(series1);
+// why actors is not working? FIND OUT!!! 
 
 
 
