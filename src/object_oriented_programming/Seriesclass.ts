@@ -26,6 +26,8 @@ const episode3 = new Episode("prison break", 120, "breaking out of the prison wi
 const series1 = new Series("Lost in Translation", "american in china experience a new cultur", 1989, 2009, [episode1, episode2, episode3]);
 const series2 = new Series("hextor and canibale", "a corruption scandal in the vatican", 1938, 3000, [episode1,episode2]);
 const series3 = new Series("Lammbock", "how a lawyear can mess up his life", 1966, 1986, [episode1,episode2,episode3]);
+console.log(series2);
+console.log(series3);
 
 function printSeriesInfo(series: Series):void {
     console.log(`Title: ${series._title}`);

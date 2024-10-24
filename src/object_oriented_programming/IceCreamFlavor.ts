@@ -23,7 +23,10 @@ vanillaShakeCraneberry._isPopular = false;
 const iceCreamFlavorsArr = [straciatellaItaliaGrande, cookiesAndCream, vanillaShakeCraneberry];
 
 const popularIceCream = iceCreamFlavorsArr.filter((flavor) => 
-flavor._isPopular)
+flavor._isPopular);
+popularIceCream.forEach((flavor) => {
+    console.log(flavor._name);
+});
 
 
 
