@@ -11,5 +11,4 @@ class Actor{
         this._gender = gender;
     }
 }
-
 export default Actor;

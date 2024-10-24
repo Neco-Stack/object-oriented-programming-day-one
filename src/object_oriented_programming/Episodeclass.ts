@@ -13,5 +13,4 @@ class Episode{
         this._actors = actors;
     }
 }
-
 export default Episode;
